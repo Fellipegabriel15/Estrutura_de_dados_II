@@ -1,4 +1,5 @@
 📊 Sistema de Controle Acadêmico de Alunos
+
 Este é um programa escrito em C/C++ que utiliza estruturas de dados (struct) para cadastrar alunos de uma turma, registrar suas notas e gerar um relatório estatístico de desempenho acadêmico (médias, aprovações e reprovações).
 
 🚀 Funcionalidades
