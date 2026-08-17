@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* Escreva um algoritmo que solicite Nome, Sexo, idade e três notas de N alunos em uma turma e ao final apresente:
+/* Escreva um algoritmo que solicite Nome, Sexo, idade e trÃªs notas de N alunos em uma turma e ao final apresente:
    	1) Total de Alunos cadastrados........................................ ok
    	2) A media das idades dos alunos da turma............................. ok
    	3) Quantidade de alunos aprovados..................................... ok
@@ -68,7 +68,7 @@ int main () {
 
 	printf("\n Total de Alunos cadastrados: %i", QtdAlunos ); //01 mostra a quantidade de alunos
 	float mediaIdade = somaIdades / QtdAlunos; // faz o calculo da media de idade dos alunoos e imprime o valor na linha abaixo 02
-	printf("\n A media de idade dos alunos da turma é de %.2f\n", mediaIdade);
+	printf("\n A media de idade dos alunos da turma Ã© de %.2f\n", mediaIdade);
 	
 	printf("\n Alunos aprovados: %i", QtdAprovados);  // 03 imprime a quantidade de alunoos aprovados atraves de uma variavel que adciona um valor por aluno aprovado atraves do loop na linha 62
 	printf("\n Alunos reprovados: %i", QtdAlunos-QtdAprovados);  
