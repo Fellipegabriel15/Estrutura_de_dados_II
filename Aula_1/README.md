@@ -4,8 +4,12 @@ Este é um programa escrito em C/C++ que utiliza estruturas de dados (struct) pa
 
 🚀 Funcionalidades
 
-Configuração Personalizada: Permite definir a quantidade de alunos, o número de provas aplicadas e a média necessária para aprovação.
+Configuração Personalizada: 
+
+Permite definir a quantidade de alunos, o número de provas aplicadas e a média necessária para aprovação.
+
 Cadastro Completo: Coleta dados individuais de cada aluno (Nome, Idade, Sexo e Notas).
+
 Cálculo Automático: Média individual de cada aluno e média geral de idade da turma.
 
 Estatísticas Geradas:
