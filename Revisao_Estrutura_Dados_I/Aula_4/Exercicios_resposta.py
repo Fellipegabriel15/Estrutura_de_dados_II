@@ -61,3 +61,58 @@ impressora.adicionar_documento("Boleto.pdf")
 print("\n--- Testando a Impressão ---")
 impressora.imprimir()  # Imprime 'Relatorio.pdf' (o mais antigo)
 impressora.imprimir()  # Imprime 'Trabalho_Escolar.docx'
+
+#----------------------------------------Desafio Master----------------------------------------
+
+from collections import deque
+
+def gerenciador_fila():
+    # Inicializa a fila de duas pontas (deque)
+    fila_atendimento = deque()
+
+    while True:
+        print("\n=== FILA DE ATENDIMENTO MÉDICO ===")
+        print("1 - Adicionar Paciente Normal (Final da fila)")
+        print("2 - Adicionar Paciente Prioritário (Início da fila)")
+        print("3 - Chamar Próximo Paciente")
+        print("4 - Visualizar Fila")
+        print("0 - Sair")
+
+        opcao = input("Escolha uma opção: ")
+
+        if opcao == "1":
+            nome = input("Nome do paciente normal: ")
+            # append() insere no final (à direita)
+            fila_atendimento.append(nome)
+            print(f"Paciente '{nome}' adicionado ao FINAL da fila.")
+
+        elif opcao == "2":
+            nome = input("Nome do paciente prioritário: ")
+            # appendleft() insere no início (à esquerda) em O(1)
+            fila_atendimento.appendleft(nome)
+            print(f"Paciente prioritário '{nome}' adicionado ao INÍCIO da fila!")
+
+        elif opcao == "3":
+            if not fila_atendimento:
+                print("A fila está vazia! Nenhum paciente para atender.")
+            else:
+                # popleft() remove e retorna o elemento do início da fila
+                atendido = fila_atendimento.popleft()
+                print(f"Atendendo agora: -> {atendido} <-")
+
+        elif opcao == "4":
+            if not fila_atendimento:
+                print("Fila vazia.")
+            else:
+                print("\nEstado atual da fila (Início -> Final):")
+                print(" -> ".join(fila_atendimento))
+
+        elif opcao == "0":
+            print("Encerrando o sistema...")
+            break
+
+        else:
+            print("Opção inválida! Tente novamente.")
+
+if __name__ == "__main__":
+    gerenciador_fila()
