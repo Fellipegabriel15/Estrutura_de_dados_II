@@ -80,25 +80,19 @@ Utilize o grafo construído na Atividade 1.
 1.  Liste os vértices adjacentes a cada vértice.
 2.  Informe quais arestas são incidentes em cada vértice.
 3.  Escolha dois vértices adjacentes e explique por que são considerados
-    vizinhos.
-4.  Escolha dois vértices não adjacentes e justifique sua resposta.
+    vizinhos = O 1 e o 4 são vizinhos ou adjacentes pois possui uma aresta entre eles e que liga eles.
+4.  Escolha dois vértices não adjacentes e justifique sua resposta = O 2 e o 5 são Incidentes e não adjacentes, pois, podemos chegar até o 5 partindo do 2 e vice e versa, porém não existe uma aresta que ligue os dois entre si, portanto, Não são adjacentes.
 
 ### Registro
 
   Vértice   Vértices adjacentes   Arestas incidentes
   --------- --------------------- --------------------
-  1                               
-  2                               
-  3                               
-  4                               
-  5                               
+  1         (5, 2 e 4)            (2, 3, 4, 5)          
+  2         (1, 3)                (1, 3, 4, 5)      
+  3         (2, 4)                (1, 2, 4, 5)      
+  4         (1, 3, 4)             (1, 2, 3, 4, 5)         
+  5         (1)                   (1, 2, 3, 4)   
 
-### Plataformas
-
--   papel;
--   Graph Online;
--   diagrams.net;
--   quadro colaborativo indicado pela professora.
 
 ------------------------------------------------------------------------
 
