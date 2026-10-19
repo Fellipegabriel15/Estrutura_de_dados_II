@@ -54,23 +54,20 @@ Considere:
 ### Faça
 
 1.  Desenhe o grafo.
-2.  Identifique o número de vértices.
-3.  Identifique o número de arestas.
-4.  Determine a ordem `|V|`.
-5.  Determine o tamanho `|E|`.
-6.  Identifique se existe laço.
-7.  Determine o grau de cada vértice.
+2.  Identifique o número de vértices = 5
+3.  Identifique o número de arestas = 4
+4.  Determine a ordem, `|5|`.
+5.  Determine o tamanho, `|4|`.
+6.  Identifique se existe laço = Sim, no 4
+7.  Determine o grau de cada vértice:
+   Vertice 1 = 3 
+   Vertice 2 = 2
+   Vertice 3 = 1
+   Vertice 4 = 3
+   Vertice 5 = 1
 
-> **Atenção:** a aresta `(4,4)` é um laço. No cálculo do grau, um laço é
-> contado duas vezes.
+<img width="532" height="492" alt="Atividade 1" src="https://github.com/user-attachments/assets/8ca94449-caf4-4133-8b1f-5c4084f1a2b8" />
 
-### Plataformas
-
--   papel e lápis;
--   Graph Online;
--   diagrams.net;
--   Graphviz;
--   Google Colab com Python e NetworkX.
 
 ------------------------------------------------------------------------
 
