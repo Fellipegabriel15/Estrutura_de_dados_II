@@ -88,10 +88,10 @@ Utilize o grafo construído na Atividade 1.
   
   Vértices adjacentes
   --------------------------------------------------
-  1 = (5, 2 e 4) 
-  2 = (1, 3) 
-  3 = (2, 4)  
-  4 = (1, 3, 4)        
+  1 = (5, 2 e 4)
+  2 = (1, 3)
+  3 = (2, 4) 
+  4 = (1, 3, 4) 
   5 = (1)
   
   Arestas incidentes
