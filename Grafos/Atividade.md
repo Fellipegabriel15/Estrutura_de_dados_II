@@ -126,24 +126,21 @@ Crie uma pequena rede de amizades entre essas pessoas.
 
 ### Faça
 
-1.  Defina o conjunto de vértices `V`.
-2.  Defina o conjunto de arestas `E`.
-3.  Desenhe o grafo correspondente.
-4.  Informe se o grafo deve ser dirigido ou não dirigido.
-5.  Justifique a escolha.
-6.  Identifique quem possui maior grau no grafo criado.
+1.  Defina o conjunto de vértices `4`.
+2.  Defina o conjunto de arestas `4`.
+3.  Desenhe o grafo correspondente. (Consta abaixo) 
+4.  Informe se o grafo deve ser dirigido ou não dirigido. O grafo deve ser dirigido.
+5.  Justifique a escolha = Escolhi o grafo dirigido, pois as conexões são mutuas, logo se conheço uma pessoa, ela também me conhece, uma mão dupla.
+6.  Identifique quem possui maior grau no grafo criado = João possui o maior grafo, pois tem conexão com todos os outros.
 
 ### Questão para reflexão
 
 **O que os vértices e as arestas representam nesse problema?**
+- Os vértices nesse problema representam as pessoas e as arestas a relação que elas possuem entre si.
 
-### Plataformas
+### Diagrama
 
--   diagrams.net;
--   Graph Online;
--   Canva;
--   papel;
--   Google Colab com NetworkX.
+<img width="622" height="622" alt="Diagrama sem nome" src="https://github.com/user-attachments/assets/c2f7d76f-22f9-469e-b060-5c34fdc314fe" />
 
 ------------------------------------------------------------------------
 
@@ -160,18 +157,16 @@ mão única.
 2.  Represente cada rua por uma aresta dirigida.
 3.  Utilize setas para indicar o sentido permitido.
 4.  Defina os conjuntos `V` e `E`.
-5.  Escolha um vértice e determine:
-    -   seu grau de entrada;
-    -   seu grau de saída.
+5.  Escolha um vértice e determine (Vertice 5):
+    -   seu grau de entrada = Grau 2;
+    -   seu grau de saída = Grau 1.
 6.  Explique por que um grafo não dirigido não representa adequadamente
-    essa situação.
+    essa situação = Pois, existem regras que devem ser seguidas quanto a direção, portanto, se faz necessária a direção, deixar ambíguo a decrição, compromete o gráfico como um todo.
 
-### Plataformas
+### Diagrama
 
--   diagrams.net;
--   Graph Online;
--   Graphviz;
--   Google Colab com NetworkX.
+<img width="601" height="572" alt="Diagrama sem nome (1)" src="https://github.com/user-attachments/assets/3744b6eb-b686-4c5a-b754-a3579619b01b" />
+
 
 ------------------------------------------------------------------------
 
@@ -277,74 +272,25 @@ indicada pela professora.
 
 ------------------------------------------------------------------------
 
-## 10. Plataformas recomendadas
+## 10. Plataforma Utilizada:
 
-### Graph Online
-
-Indicado para construção visual rápida de grafos e exploração das
-conexões.
-
-### diagrams.net
-
-Indicado para desenhar grafos, redes, mapas simplificados e modelos de
-situações-problema.
-
-### Graphviz
-
-Indicado para representar grafos por meio de uma descrição
-textual/código.
-
-### Google Colab + Python/NetworkX
-
-Indicado para relacionar os conceitos da Teoria dos Grafos à
-implementação computacional.
-
-### Canva
-
-Pode ser utilizado nas atividades de modelagem predominantemente visual.
-
-### Papel e lápis
-
-Continua sendo uma opção adequada para os exercícios conceituais e para
-os primeiros esboços.
+- https://app.diagrams.net/
 
 ------------------------------------------------------------------------
 
-## 11. Entrega das atividades
 
-Ao final da aula, entregue **um único documento** contendo:
+## 11. Checklist de revisão
 
--   nome do estudante ou integrantes da dupla;
--   identificação das atividades;
--   desenhos dos grafos;
--   conjuntos `V` e `E`, quando solicitados;
--   cálculos;
--   respostas;
--   justificativas;
--   captura de tela ou link, quando utilizada uma plataforma digital.
-
-------------------------------------------------------------------------
-
-## 12. Checklist de revisão
-
--   [ ] Identifiquei corretamente vértices e arestas.
--   [ ] Diferenciei grafo dirigido e não dirigido.
--   [ ] Identifiquei incidência e adjacência.
--   [ ] Calculei os graus quando solicitado.
--   [ ] Considerei o laço corretamente no cálculo do grau.
--   [ ] Utilizei setas nos grafos dirigidos.
--   [ ] Justifiquei a análise de isomorfismo.
--   [ ] Identifiquei corretamente os subgrafos.
--   [ ] Conferi a sequência de graus.
--   [ ] Revisei os desenhos e as justificativas.
--   [ ] Registrei a plataforma utilizada.
+-   [X] Identifiquei corretamente vértices e arestas.
+-   [X] Diferenciei grafo dirigido e não dirigido.
+-   [X] Identifiquei incidência e adjacência.
+-   [X] Calculei os graus quando solicitado.
+-   [X] Considerei o laço corretamente no cálculo do grau.
+-   [X] Utilizei setas nos grafos dirigidos.
+-   [X] Justifiquei a análise de isomorfismo.
+-   [X] Identifiquei corretamente os subgrafos.
+-   [X] Conferi a sequência de graus.
+-   [X] Revisei os desenhos e as justificativas.
+-   [X] Registrei a plataforma utilizada.
 
 ------------------------------------------------------------------------
-
-## 13. Referência
-
-GOMES, Paulo César Rodacki. **Grafos: conceitos fundamentais, algoritmos
-e aplicações**. Blumenau: Editora IFC, 2022.
-
-Material de apoio elaborado a partir do **Capítulo 1 - Conceitos
-Fundamentais**.
