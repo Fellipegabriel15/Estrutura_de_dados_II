@@ -176,31 +176,17 @@ A professora apresentará dois grafos para comparação.
 
 ### Faça
 
-1.  Compare a quantidade de vértices.
-2.  Compare a quantidade de arestas.
-3.  Observe os graus dos vértices.
-4.  Procure uma correspondência entre os vértices dos dois grafos.
-5.  Verifique se as adjacências são preservadas.
-6.  Registre o mapeamento encontrado.
-7.  Conclua, justificadamente, se os grafos são isomorfos.
+1.  Compare a quantidade de vértices = Ambos possuem 4 vértices.
+2.  Compare a quantidade de arestas = Ambos possuem 4 arestas
+3.  Observe os graus dos vértices = Cada Vértice possui exatamente 2 graus em cada Grafo
+4.  Procure uma correspondência entre os vértices dos dois grafos:  1 = a, 2 = b, c = 3 e 4 = d.
 
-### Registro sugerido
+Podemos considerar que os grafos são isomórficos, pois possuem a mesma quantidade de arestas e vértices (4), além das adjacência serem preservadas de forma igual entre os dois (2), tendo em vista o mapeamento, as comparações e as evidencias apresentadas, podemos concluir que ambos os grafos são isomorficos.
 
-  Vértice do grafo G   Vértice correspondente no grafo H
-  -------------------- -----------------------------------
-                       
-                       
-                       
-                       
+### Grafo
 
-> Não considere apenas a aparência dos desenhos. Grafos desenhados de
-> formas diferentes podem apresentar a mesma estrutura.
+<img width="1129" height="482" alt="Diagrama sem nome (2)" src="https://github.com/user-attachments/assets/72574158-9d5c-4e0b-aadb-794620a2d572" />
 
-### Plataformas
-
--   papel;
--   Graph Online;
--   diagrams.net.
 
 ------------------------------------------------------------------------
 
