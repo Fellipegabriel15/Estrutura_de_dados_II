@@ -236,21 +236,13 @@ indicada pela professora.
 
   |  Vértice   |  Grau  |      Vizinho       |
   | ------------ | ------------ | ------------ |
-  
   |     A      |    1   |  H                 |
-  
   |     B      |    1   |  H                 |
-  
   |     C      |    2   |  G, H              |
-  
   |     D      |    3   |  E, F, H           |
-  
   |     E      |    3   |  D, F, G           |
-  
   |     F      |    4   |  D, E, G, H        |
-
   |     G      |    4   |  C, E, F, H        |
-  
   |     H      |    6   |  A, B, C, D, F, G  |
 
 
