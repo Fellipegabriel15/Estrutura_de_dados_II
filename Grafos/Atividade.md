@@ -179,7 +179,7 @@ A professora apresentará dois grafos para comparação.
 1.  Compare a quantidade de vértices = Ambos possuem 4 vértices.
 2.  Compare a quantidade de arestas = Ambos possuem 4 arestas
 3.  Observe os graus dos vértices = Cada Vértice possui exatamente 2 graus em cada Grafo
-4.  Procure uma correspondência entre os vértices dos dois grafos:  1 = a, 2 = b, c = 3 e 4 = d.
+4.  Procure uma correspondência entre os vértices dos dois grafos:  1 = a, 2 = c, 3 = b e 4 = d.
 
 Podemos considerar que os grafos são isomórficos, pois possuem a mesma quantidade de arestas e vértices (4), além das adjacência serem preservadas de forma igual entre os dois (2), tendo em vista o mapeamento, as comparações e as evidencias apresentadas, podemos concluir que ambos os grafos são isomorficos.
 
