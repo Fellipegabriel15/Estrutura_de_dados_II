@@ -185,7 +185,7 @@ Podemos considerar que os grafos são isomórficos, pois possuem a mesma quantid
 
 ### Grafo
 
-<img width="1129" height="482" alt="Diagrama sem nome (2)" src="https://github.com/user-attachments/assets/72574158-9d5c-4e0b-aadb-794620a2d572" />
+<img width="992" height="432" alt="Grafos-Página-3" src="https://github.com/user-attachments/assets/51056dd9-7581-468e-9d16-410401f4151e" />
 
 
 ------------------------------------------------------------------------
@@ -206,22 +206,19 @@ subgrafos diferentes**.
 
 **Subgrafo G1**
 
-`V1 = { }`
+`V1 = { 1, 4, 3 }`
 
-`E1 = { }`
+`E1 = { (4,1) e (3,4) }`
 
 **Subgrafo G2**
 
-`V2 = { }`
+`V2 = { 4, 3, 2 }`
 
-`E2 = { }`
+`E2 = { (2,3) e (3,4) }`
 
-### Plataformas
+### Grafo
 
--   Graph Online;
--   diagrams.net;
--   papel;
--   Google Colab com NetworkX.
+<img width="992" height="432" alt="Grafos-Página-3 (1)" src="https://github.com/user-attachments/assets/386e63b9-4ace-4c17-84d1-cae10712e6be" />
 
 ------------------------------------------------------------------------
 
@@ -230,14 +227,10 @@ subgrafos diferentes**.
 Construa um **grafo simples** de acordo com a sequência de graus
 indicada pela professora.
 
-### Faça
+### Grafo
 
-1.  Crie os vértices necessários.
-2.  Adicione as arestas progressivamente.
-3.  Calcule o grau de cada vértice.
-4.  Organize os graus em ordem não decrescente.
-5.  Compare a sequência obtida com a sequência solicitada.
-6.  Caso não coincida, revise as arestas.
+<img width="682" height="862" alt="Grafos-Página-2" src="https://github.com/user-attachments/assets/ce670b5f-9365-4a6b-b87e-553dafc28591" />
+
 
 ### Registro
 
@@ -248,13 +241,7 @@ indicada pela professora.
             
             
 
-**Sequência final de graus:** `( ______________________________ )`
-
-### Plataformas
-
--   papel;
--   Graph Online;
--   Python/NetworkX no Google Colab.
+**Sequência final de graus:** `( 1, 1, 2, 3, 3, 4, 4, 6)`
 
 ------------------------------------------------------------------------
 
