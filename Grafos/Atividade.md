@@ -235,6 +235,7 @@ indicada pela professora.
 ### Registro
 
   |  Vértice   |  Grau  |      Vizinho       |
+  | ------------ | ------------ | ------------ |
   
   |     A      |    1   |  H                 |
   
