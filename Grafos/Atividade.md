@@ -129,8 +129,8 @@ Crie uma pequena rede de amizades entre essas pessoas.
 1.  Defina o conjunto de vértices `4`.
 2.  Defina o conjunto de arestas `4`.
 3.  Desenhe o grafo correspondente. (Consta abaixo) 
-4.  Informe se o grafo deve ser dirigido ou não dirigido. O grafo deve ser dirigido.
-5.  Justifique a escolha = Escolhi o grafo dirigido, pois as conexões são mutuas, logo se conheço uma pessoa, ela também me conhece, uma mão dupla.
+4.  Informe se o grafo deve ser dirigido ou não dirigido. O grafo deve ser não dirigido.
+5.  Justifique a escolha = Escolhi o grafo não dirigido, pois as conexões são mutuas, logo se conheço uma pessoa, ela também me conhece, uma mão dupla.
 6.  Identifique quem possui maior grau no grafo criado = João possui o maior grafo, pois tem conexão com todos os outros.
 
 ### Questão para reflexão
