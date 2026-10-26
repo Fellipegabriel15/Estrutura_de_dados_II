@@ -251,7 +251,12 @@ indicada pela professora.
   |     G      |    4   |  C, E, F, H        |
   
   |     H      |    6   |  A, B, C, D, F, G  |
-     
+
+
+| Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3 |
+| ------------ | ------------ | ------------ |
+| Linha 1, Col 1 | Linha 1, Col 2 | Linha 1, Col 3 |
+| Linha 2, Col 1 | Linha 2, Col 2 | Linha 2, Col 3 |
 
 **Sequência final de graus:** `( 1, 1, 2, 3, 3, 4, 4, 6)`
 
