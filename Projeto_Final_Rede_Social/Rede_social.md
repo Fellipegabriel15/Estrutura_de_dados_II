@@ -190,7 +190,7 @@ densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
 ```
 4. Recalcule os graus, o total de arestas e a densidade.
-    |||Arestas|Densidade|
+    |a||Arestas|Densidade|
     |------|--------|----------|
     |Antiga|8|53,33%|
     |Nova|15|33,33%|
