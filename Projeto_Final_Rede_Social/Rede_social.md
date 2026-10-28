@@ -42,7 +42,7 @@ As amizades são:
 Conte quantas linhas chegam a cada círculo. Registre o resultado.
 
 | Usuário | Amigos diretos | Grau |
-|---|---|---:|
+|---|---|---|
 | Ana | Bruno e Carla | 2 |
 | Bruno | Ana, Carla e Diego  | 3 |
 | Carla | Ana, Bruno e Elisa | 3 |
@@ -190,10 +190,10 @@ densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
 ```
 4. Recalcule os graus, o total de arestas e a densidade.
-    |a||Arestas|Densidade|
-    |------|--------|----------|
-    |Antiga|8|53,33%|
-    |Nova|15|33,33%|
+    | - | Arestas | Densidade |
+    |---|---|---|
+| Antiga | 8 | 53,33% |
+| Nova | 15  | 33,33% |
 5. Compare a densidade antes e depois da ampliação. A densidade possui niveis mais elevados antes da alteração, muito por conta do aumento das ligações e variações entre si, antes era de 53,33% e agora de 33,33%
 6. Identifique os usuários com mais conexões = Bruno, Carla, Felipe e Iago possuem 4 conexões.
 7. Explique como a rede poderia recomendar uma nova amizade = A rede pode indicar amizades por meio de amizades em comum, por exemplo, Iago e Eliza, possuem dois amigos em comum, porém não são amigos, portanto a rede poderia indicar essa amiade.
