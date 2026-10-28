@@ -138,7 +138,7 @@ ________________________________________________________________
 
 ## 10. Desafio em grupo
 Amplie a rede social:
-1. Adicione pelo menos quatro usuários fictícios.
+1. Adicione pelo menos quatro usuários fictícios = Criei Gabriela, Heitor, Iago e Janaina
 2. Crie no mínimo cinco novas amizades.
 3. Atualize a lista de adjacência no Python.
 4. Recalcule os graus, o total de arestas e a densidade.
@@ -148,11 +148,53 @@ Amplie a rede social:
 
 ## 11. Entrega
 Entregue:
-- desenho do grafo;
+- desenho do grafo:
+  
+  <img width="362" height="452" alt="image" src="https://github.com/user-attachments/assets/51ef3662-9df8-41b5-b706-2c4395b037d8" />
+
 - tabela com os graus;
-- cálculos de arestas e densidade;
-- código Python executável;
-- respostas às perguntas e breve conclusão.
+- cálculos de arestas e densidade:
+    - Arestas: Somar todos os graus e dividir por 2: (3+4+4+3+3+4+2+1+4+2) / 2 = 30/2 = 10
+    - Densidade:  2*15 / [10 x (10 - 1)] = 30 / 90 = 0,333333 ou 33,3333%
+- código Python executável:
+```python
+rede = {
+    "Ana": ["Bruno", "Carla", "Gabriela"],
+    "Bruno": ["Ana", "Carla", "Diego", "Gabriela"],
+    "Carla": ["Ana", "Bruno", "Elisa", "Iago"],
+    "Diego": ["Bruno", "Elisa", "Felipe"],
+    "Elisa": ["Carla", "Diego", "Felipe"],
+    "Felipe": ["Diego", "Elisa", "Iago", "Janaina"],
+    "Gabriela": ["Ana", "Bruno"],
+    "Heitor": ["Iago"],
+    "Iago": ["Carla", "Felipe", "Heitor", "Janaina"],
+    "Janaina": ["Felipe", "Iago"]
+}
+
+# Quantidade de usuarios
+n = len(rede)
+
+# Calcule o grau de cada usuario
+for usuario, amigos in rede.items():
+    print(usuario, "tem", len(amigos), "conexoes")
+
+# A soma dos graus conta cada amizade duas vezes
+soma_graus = sum(len(amigos) for amigos in rede.values())
+arestas = soma_graus // 2
+
+print("Total de usuarios:", n)
+print("Total de amizades:", arestas)
+
+# Densidade do grafo
+densidade = (2 * arestas) / (n * (n - 1))
+print(f"Densidade: {densidade:.2%}")
+```
+4. Recalcule os graus, o total de arestas e a densidade.
+5. Compare a densidade antes e depois da ampliação. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+6. Identifique os usuários com mais conexões = Bruno, Carla, Felipe e Iago possuem 4 conexões.
+7. Explique como a rede poderia recomendar uma nova amizade = A rede pode indicar amizades por meio de amizades em comum, por exemplo, Iago e Eliza, possuem dois amigos em comum, porém não são amigos, portanto a rede poderia indicar essa amiade.
 
 ## 12. Pergunta de reflexão
 Duas pessoas ainda não são amigas, mas têm três amigos em comum. Como essa informação poderia ser usada para sugerir uma nova conexão? Quais cuidados de privacidade devem ser considerados ao analisar redes sociais?
+
+Sim, poderia ser usado. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
