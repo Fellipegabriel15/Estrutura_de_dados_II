@@ -4,8 +4,7 @@
 **Unidade III:** Grafos\
 **Professora:** Kadidja Valéria\
 **Conteúdo-base:** Capítulo 1 - Conceitos Fundamentais\
-**Duração prevista:** atividades distribuídas ao longo da aula de 2
-horas
+**Aluno:** Fellipe Gabriel Souza de Assis Monteiro
 
 ------------------------------------------------------------------------
 
