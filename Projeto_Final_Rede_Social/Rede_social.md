@@ -1,6 +1,7 @@
 # Caderno do Estudante
 # Projeto ConectaUDF: redes sociais com grafos
 **Disciplina:** Algoritmos / Matemática Discreta / Ciência de Dados
+**Aunos:** Fellipe Gabriel Souza de Assis Monteiro / Ian Cristyan Sousa da Silva / Nicolas Luis Guerrero de Oliveira / Thiago Vinicius Rodrigues Feitosa
 
 ## 1. O desafio
 Você faz parte da equipe que analisa a rede social fictícia **ConectaUDF**. Sua missão é representar as amizades em um grafo, realizar cálculos e usar Python para interpretar a estrutura da rede.
