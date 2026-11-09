@@ -189,6 +189,9 @@ print("Total de amizades:", arestas)
 densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
 ```
+
+https://colab.research.google.com/drive/1rhqPQxoTIqZbxZIyjD6SW5gUjvTRBvCa
+
 4. Recalcule os graus, o total de arestas e a densidade.
     | - | Arestas | Densidade |
     |---|---|---|
@@ -201,4 +204,6 @@ print(f"Densidade: {densidade:.2%}")
 ## 12. Pergunta de reflexão
 Duas pessoas ainda não são amigas, mas têm três amigos em comum. Como essa informação poderia ser usada para sugerir uma nova conexão? Quais cuidados de privacidade devem ser considerados ao analisar redes sociais?
 
-Sim, poderia ser usado. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Sim, essa informação poderia ser usada para recomendar uma nova amizade, pois ter três amigos em comum indica que as duas pessoas possuem relações próximas dentro da rede social. Assim, a plataforma poderia sugerir que elas se conectassem, aumentando as possibilidades de interação.
+
+Porém, é importante respeitar a privacidade dos usuários, utilizando apenas informações autorizadas, protegendo seus dados pessoais e permitindo que cada pessoa escolha se deseja aceitar ou não as sugestões de amizade. Além disso, as informações das conexões não devem ser compartilhadas sem consentimento.
