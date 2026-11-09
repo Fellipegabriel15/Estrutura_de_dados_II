@@ -1,6 +1,5 @@
 # Caderno do Estudante
 # Projeto ConectaUDF: redes sociais com grafos
-**Disciplina:** Algoritmos / Matemática Discreta / Ciência de Dados
 **Aunos:** Fellipe Gabriel Souza de Assis Monteiro / Ian Cristyan Sousa da Silva / Nicolas Luis Guerrero de Oliveira / Thiago Vinicius Rodrigues Feitosa
 
 ## 1. O desafio
