@@ -52,11 +52,5 @@ Este diretório reúne os materiais e atividades relacionadas à unidade de Graf
 ## Objetivo geral
 O diretório Grafo visa apresentar e praticar os conceitos fundamentais da Teoria dos Grafos, além de demonstrar sua aplicação em problemas reais, especialmente em redes sociais, relações entre elementos e estrutura de conexões.
 
-## Ferramentas e plataformas mencionadas
-- Graph Online
+## Ferramentas e plataformas utilizadas
 - diagrams.net
-- Graphviz
-- Google Colab
-- Python / NetworkX
-- papel e lápis
-- Canva
